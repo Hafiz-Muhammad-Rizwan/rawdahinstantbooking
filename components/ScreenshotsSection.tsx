@@ -19,7 +19,11 @@ export default function ScreenshotsSection() {
     {
       step: 3,
       title: "Select your Name",
-      description: "Very important:Wait at :19 ,:39 and Tap Quickly at :20,40 and :59 until",
+      description: (
+    <>
+      <span style={{ color: 'red', fontWeight: 'bold' }}>Very important:</span> Wait at :19 , :39 , :59 minutes and Tap Quickly at :20, :40 and :00
+    </>
+    ),
       image: "/rawdahinstantbooking/images/booking2.jpeg"
     },
     {
