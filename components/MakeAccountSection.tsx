@@ -49,7 +49,7 @@ export default function MakeAccountSection() {
           <div className="order-2 lg:order-1">
             <div className="relative rounded-2xl overflow-hidden shadow-lg border border-surface-container bg-surface-card max-w-md mx-auto">
               <Image
-                src="/rawdahinstantbooking/images/nusk2.jpeg"
+                src="/images/nusk2.jpeg"
                 alt="Nusuk App Account Registration"
                 width={600}
                 height={800}

@@ -30,7 +30,7 @@ export default function ContactSection() {
             className="group bg-surface-card rounded-2xl p-7 shadow-xs border border-surface-container hover:shadow-md transition-all hover:-translate-y-1"
           >
             <div className="w-14 h-14 bg-emerald-tint rounded-xl flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
-              <Image src="/rawdahinstantbooking/images/whatsapplogo.png" alt="" width={32} height={32} className="h-8 w-8 object-contain" />
+              <Image src="/images/whatsapplogo.png" alt="" width={32} height={32} className="h-8 w-8 object-contain" />
             </div>
             <h3 className="text-[18px] leading-[24px] font-semibold text-on-surface mb-1">
               WhatsApp
@@ -52,7 +52,7 @@ export default function ContactSection() {
             className="group bg-surface-card rounded-2xl p-7 shadow-xs border border-surface-container hover:shadow-md transition-all hover:-translate-y-1"
           >
             <div className="w-14 h-14 bg-accent-gold-light rounded-xl flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
-              <Image src="/rawdahinstantbooking/images/gmaillogo.png" alt="" width={32} height={32} className="h-8 w-8 object-contain" />
+              <Image src="/images/gmaillogo.png" alt="" width={32} height={32} className="h-8 w-8 object-contain" />
             </div>
             <h3 className="text-[18px] leading-[24px] font-semibold text-on-surface mb-1">
               Email
@@ -76,7 +76,7 @@ export default function ContactSection() {
             className="group bg-surface-card rounded-2xl p-7 shadow-xs border border-surface-container hover:shadow-md transition-all hover:-translate-y-1"
           >
             <div className="w-14 h-14 bg-surface-container rounded-xl flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
-              <Image src="/rawdahinstantbooking/images/linkedinlogo.png" alt="" width={32} height={32} className="h-8 w-8 object-contain" />
+              <Image src="/images/linkedinlogo.png" alt="" width={32} height={32} className="h-8 w-8 object-contain" />
             </div>
             <h3 className="text-[18px] leading-[24px] font-semibold text-on-surface mb-1">
               LinkedIn

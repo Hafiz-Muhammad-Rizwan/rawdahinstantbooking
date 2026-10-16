@@ -8,13 +8,13 @@ export default function ScreenshotsSection() {
       step: 1,
       title: "Open Rawdah Booking",
       description: "Start from your verified Nusuk account and open the Rawdah booking flow.",
-      image: "/rawdahinstantbooking/images/makeaccount5.jpeg"
+      image: "/images/makeaccount5.jpeg"
     },
     {
       step: 2,
       title: "Choose the Gender",
       description: "Select the Male or Female option.",
-      image: "/rawdahinstantbooking/images/Booking1.jpeg"
+      image: "/images/Booking1.jpeg"
     },
     {
       step: 3,
@@ -24,19 +24,19 @@ export default function ScreenshotsSection() {
       <span style={{ color: 'red', fontWeight: 'bold' }}>Very important:</span> Wait at :19 , :39 , :59 minutes and Tap Quickly at :20, :40 and :00
     </>
     ),
-      image: "/rawdahinstantbooking/images/booking2.jpeg"
+      image: "/images/booking2.jpeg"
     },
     {
       step: 4,
       title: "Pick a time slot",
       description: "Tap on the available time slot (Green) to proceed with your booking.",
-      image: "/rawdahinstantbooking/images/Booking3.jpeg"
+      image: "/images/Booking3.jpeg"
     },
     {
       step: 5,
       title: "Confirm booking",
       description: "Review the details and confirm to receive your digital permit.",
-      image: "/rawdahinstantbooking/images/Booking4.jpeg"
+      image: "/images/Booking4.jpeg"
     }
   ];
 

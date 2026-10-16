@@ -12,7 +12,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-4">
           <div className="flex items-center justify-center w-11 h-11 rounded-lg bg-white border border-surface-container overflow-hidden">
-            <Image src="/rawdahinstantbooking/images/nusuklogo.svg" alt="Nusuk Guide" width={44} height={44} className="h-full w-full object-contain" />
+            <Image src="/images/nusuklogo.svg" alt="Nusuk Guide" width={44} height={44} className="h-full w-full object-contain" />
           </div>
           <div className="flex flex-col">
             <div className="flex items-center gap-1.5">

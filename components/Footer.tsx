@@ -12,7 +12,7 @@ export default function Footer() {
           <div>
             <div className="mb-3 flex items-center gap-2">
               <div className="flex h-8 w-8 items-center justify-center rounded bg-white border border-surface-container overflow-hidden">
-                <Image src="/rawdahinstantbooking/images/nusuklogo.svg" alt="" width={32} height={32} className="h-full w-full object-contain" />
+                <Image src="/images/nusuklogo.svg" alt="" width={32} height={32} className="h-full w-full object-contain" />
               </div>
               <span className="text-[20px] font-semibold tracking-tight text-primary">NUSUK GUIDE</span>
             </div>

@@ -1,8 +1,6 @@
 'use client';
 
 export default function InstantProcessSection() {
-  const basePath = '/rawdahinstantbooking';
-
   return (
     <section id="videos" className="w-full py-16 lg:py-24 bg-surface border-t border-surface-container/60">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
@@ -25,10 +23,10 @@ export default function InstantProcessSection() {
               className="h-full w-full object-contain"
               controls
               preload="metadata"
-              poster={`${basePath}/images/mainpic.jpg`}
+              poster="/images/mainpic.jpg"
               aria-label="Nusuk instant booking tutorial"
             >
-              <source src={`${basePath}/videos/nusukinstantbooking.mp4`} type="video/mp4" />
+              <source src="/videos/nusukinstantbooking.mp4" type="video/mp4" />
               Your browser does not support the video player.
             </video>
           </div>
