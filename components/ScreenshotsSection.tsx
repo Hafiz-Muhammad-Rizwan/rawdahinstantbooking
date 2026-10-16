@@ -12,20 +12,20 @@ export default function ScreenshotsSection() {
     },
     {
       step: 2,
-      title: "Choose the Rawdah visit",
-      description: "Select the Noble Rawdah prayer option and continue to the available visits.",
+      title: "Choose the Gender",
+      description: "Select the Male or Female option.",
       image: "/rawdahinstantbooking/images/Booking1.jpeg"
     },
     {
       step: 3,
-      title: "Select a date",
-      description: "Choose an available date shown in the Nusuk calendar.",
+      title: "Select your Name",
+      description: "Very important:Wait at :19 ,:39 and Tap Quickly at :20,40 and :59 until",
       image: "/rawdahinstantbooking/images/booking2.jpeg"
     },
     {
       step: 4,
       title: "Pick a time slot",
-      description: "Tap an open time that works for your visit.",
+      description: "Tap on the available time slot (Green) to proceed with your booking.",
       image: "/rawdahinstantbooking/images/Booking3.jpeg"
     },
     {
