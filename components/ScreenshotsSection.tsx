@@ -7,13 +7,13 @@ export default function ScreenshotsSection() {
     {
       step: 1,
       title: "Open Rawdah Booking",
-      description: "Start from your verified Nusuk account and open the Rawdah booking flow.",
+      description: "Start from your verified Nusuk account and open Rawdah booking to request an appointment.",
       image: "/images/makeaccount5.jpeg"
     },
     {
       step: 2,
       title: "Choose the Gender",
-      description: "Select the Male or Female option.",
+      description: "Select the correct gender and follow the Nusuk Rawdah ladies timing schedule when applicable.",
       image: "/images/Booking1.jpeg"
     },
     {
@@ -21,7 +21,7 @@ export default function ScreenshotsSection() {
       title: "Select your Name",
       description: (
     <>
-      <span style={{ color: 'red', fontWeight: 'bold' }}>Very important:</span> Wait at :19 , :39 , :59 minutes and Tap Quickly at :20, :40 and :00
+      <span style={{ color: 'red', fontWeight: 'bold' }}>Nusuk 20 second timing rule:</span> wait at :19, :39, :59 and tap at :20, :40, :00.
     </>
     ),
       image: "/images/booking2.jpeg"
@@ -29,7 +29,7 @@ export default function ScreenshotsSection() {
     {
       step: 4,
       title: "Pick a time slot",
-      description: "Tap on the available time slot (Green) to proceed with your booking.",
+      description: "Tap the available green slot to learn how to get a green slot in Nusuk app and proceed.",
       image: "/images/Booking3.jpeg"
     },
     {
@@ -50,10 +50,10 @@ export default function ScreenshotsSection() {
             <span className="text-[11px] leading-[16px] font-semibold uppercase tracking-wide">BOOKING SCREENSHOTS</span>
           </div>
           <h2 className="text-[32px] leading-[40px] lg:text-[40px] lg:leading-[48px] font-bold text-on-surface mb-3 tracking-tight">
-            Visual Booking Guide
+            How to Book Rawdah Slot Instantly
           </h2>
           <p className="text-[16px] leading-[24px] text-on-surface-variant">
-            Follow these step-by-step screenshots from the Nusuk app to complete your booking.
+            Follow these screenshots to book a Rawdah appointment, find a green slot in the Nusuk app, and confirm your permit.
           </p>
         </div>
 

@@ -6,10 +6,10 @@ export default function InfoBar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-8">
         <div className="text-center mb-6">
           <h2 className="text-[24px] leading-[32px] font-semibold text-on-surface mb-2">
-            Prayer Time Slots
+            Nusuk Rawdah Slots Timing &amp; Ladies Schedule
           </h2>
           <p className="text-[14px] leading-[20px] text-on-surface-variant">
-            Separate timings for men and women pilgrims
+            Check the Rawdah appointment schedule and separate timings for men and women pilgrims.
           </p>
         </div>
 
@@ -21,7 +21,7 @@ export default function InfoBar() {
                 <span className="material-symbols-outlined text-[28px] text-primary">male</span>
               </div>
               <h3 className="text-[20px] leading-[28px] font-semibold text-on-surface">
-                Men&apos;s Slots
+              Men&apos;s Rawdah Slots
               </h3>
             </div>
             <div className="space-y-3">
@@ -57,7 +57,7 @@ export default function InfoBar() {
                 <span className="material-symbols-outlined text-[28px] text-accent-gold-deep">female</span>
               </div>
               <h3 className="text-[20px] leading-[28px] font-semibold text-on-surface">
-                Women&apos;s Slots
+              Nusuk Rawdah Ladies Timing Schedule
               </h3>
             </div>
             <div className="space-y-3">

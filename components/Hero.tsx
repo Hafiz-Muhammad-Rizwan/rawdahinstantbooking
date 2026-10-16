@@ -23,10 +23,10 @@ export default function Hero() {
         {/* Main Headline & Narrative */}
         <div className="max-w-3xl space-y-6">
           <h1 className="text-[40px] leading-[48px] md:text-[52px] md:leading-[60px] lg:text-[56px] lg:leading-[64px] font-bold text-on-primary tracking-tight">
-            How to Book Your <span className="text-secondary-fixed">Rawdah Al-Sharifah</span> Permit
+            How to Book Rawdah on Nusuk: <span className="text-secondary-fixed">Rawdah Appointment</span> Guide
           </h1>
           <p className="text-[18px] leading-[28px] text-surface-container-highest max-w-2xl leading-relaxed">
-            A tranquil, step-by-step interactive walkthrough for securing your blessed prayer reservation via the official Nusuk app without confusion, stress, or delays.
+            A step-by-step guide to Rawdah booking and securing your Rawdah Al-Sharifah permit through the official Nusuk app without confusion, stress, or delays.
           </p>
         </div>
 

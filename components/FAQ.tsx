@@ -8,6 +8,14 @@ const faqs = [
     a: "Rawdah permits are not released continuously; they open in centralized weekly batches (ordinarily on Friday afternoons KSA time). In between release waves, days remain gray. Turn on app push notifications and check 5 minutes before scheduled release times."
   },
   {
+    q: "Why are Rawdah slots always unavailable?",
+    a: "Unavailable slots usually mean the release window has not started, demand is high, or another pilgrim has taken the slot. Check the Nusuk slots opening time today, keep your profile ready, and refresh only around the announced release window."
+  },
+  {
+    q: "What is the Nusuk Rawdah booking trick for the 20-second timing rule?",
+    a: "The guide's timing method is to prepare before the minute changes, then tap at :00, :20, or :40 when a slot appears. This is a practical timing tip, not a guarantee; permits are issued only by the official Nusuk app."
+  },
+  {
     q: "Can I book for my elderly parents using my phone?",
     a: "Yes. You can add them under 'Companions' in your Nusuk profile before slot release. Ensure their Saudi Visa or Umrah Visa is active. Note that male and female family members will be assigned separate entry queues and timings."
   },
@@ -38,7 +46,7 @@ export default function FAQ() {
             <span className="text-[11px] leading-[16px] font-semibold uppercase tracking-wide">FAQ &amp; RULES</span>
           </div>
           <h2 className="text-[32px] leading-[40px] lg:text-[40px] lg:leading-[48px] font-bold text-on-surface mb-3 tracking-tight">
-            Frequently Asked Questions
+            Rawdah Booking FAQ &amp; Nusuk Permit Timing
           </h2>
           <p className="text-[16px] leading-[24px] text-on-surface-variant">
             Solutions to real-time challenges pilgrims encounter during slot releases.

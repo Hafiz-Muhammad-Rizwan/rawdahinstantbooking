@@ -8,10 +8,71 @@ const ibmPlexSans = IBM_Plex_Sans({
   variable: "--font-ibm-plex-sans"
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://nusukguidance.com";
+
 export const metadata: Metadata = {
-  title: "Nusuk Guidance - Rawdah Al-Sharifah Permit Booking Guide",
-  description: "Complete step-by-step guide to book your Rawdah Al-Sharifah permit with interactive tutorials, timing guides, and expert tips.",
-  keywords: ["Nusuk", "Rawdah Al-Sharifah", "Riyadh Al Jannah", "Permit Booking", "Madinah", "Umrah", "Hajj"],
+  metadataBase: new URL(siteUrl),
+  title: "Rawdah Booking & Appointment Guide | How to Book on Nusuk",
+  description: "Learn how to book Rawdah on Nusuk with the latest Rawdah appointment steps, Nusuk slots timing, ladies schedule, 20-second timing rule, and green-slot tips.",
+  keywords: [
+    "rawdah booking",
+    "rawdah appointment",
+    "how to book rawdah on nusuk",
+    "nusuk rawdah slots timing",
+    "nusuk rawdah booking trick",
+    "riaz ul jannah booking nusuk",
+    "al rawdah al sharifah appointment",
+    "nusuk slots opening time today",
+    "nusuk app permit timing trick",
+    "nusuk 20 second timing rule",
+    "why are rawdah slots always unavailable",
+    "how to book rawdah slot instantly",
+    "nusuk rawdah ladies timing schedule",
+    "how to get green slot in nusuk app",
+  ],
+  alternates: {
+    canonical: "/",
+  },
+  icons: {
+    icon: [
+      { url: "/images/nusuksearchicon.webp", type: "image/webp" },
+      { url: "/images/32by32.jpg", sizes: "32x32", type: "image/jpeg" },
+    ],
+    shortcut: "/images/nusuksearchicon.webp",
+    apple: "/images/512by512.png",
+  },
+  openGraph: {
+    type: "website",
+    url: siteUrl,
+    title: "Rawdah Booking & Appointment Guide | How to Book on Nusuk",
+    description: "A practical guide to Rawdah booking, Nusuk appointment timing, available slots, and the official permit process.",
+    siteName: "Nusuk Guidance",
+    images: [
+      {
+        url: "/images/512by512.png",
+        width: 512,
+        height: 512,
+        alt: "Nusuk Guidance Rawdah booking logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "Rawdah Booking & Appointment Guide | How to Book on Nusuk",
+    description: "Step-by-step Rawdah booking guidance, Nusuk slots timing, and permit tips.",
+    images: ["/images/512by512.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
 };
 
 export default function RootLayout({
