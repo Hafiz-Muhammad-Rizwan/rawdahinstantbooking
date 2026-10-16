@@ -8,31 +8,31 @@ export default function ScreenshotsSection() {
       step: 1,
       title: "Open Rawdah Booking",
       description: "Start from your verified Nusuk account and open the Rawdah booking flow.",
-      image: "/images/makeaccount5.jpeg"
+      image: "/rawdahinstantbooking/images/makeaccount5.jpeg"
     },
     {
       step: 2,
       title: "Choose the Rawdah visit",
       description: "Select the Noble Rawdah prayer option and continue to the available visits.",
-      image: "/images/Booking1.jpeg"
+      image: "/rawdahinstantbooking/images/Booking1.jpeg"
     },
     {
       step: 3,
       title: "Select a date",
       description: "Choose an available date shown in the Nusuk calendar.",
-      image: "/images/Booking2.jpeg"
+      image: "/rawdahinstantbooking/images/booking2.jpeg"
     },
     {
       step: 4,
       title: "Pick a time slot",
       description: "Tap an open time that works for your visit.",
-      image: "/images/Booking3.jpeg"
+      image: "/rawdahinstantbooking/images/Booking3.jpeg"
     },
     {
       step: 5,
       title: "Confirm booking",
       description: "Review the details and confirm to receive your digital permit.",
-      image: "/images/Booking4.jpeg"
+      image: "/rawdahinstantbooking/images/Booking4.jpeg"
     }
   ];
 

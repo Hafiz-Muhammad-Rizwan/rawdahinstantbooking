@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background Image with Scrim & Chandelier Grandeur */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/mainpic.jpg"
+          src="/rawdahinstantbooking/images/mainpic.jpg"
           alt="Masjid Al-Nabawi"
           fill
           className="object-cover scale-105"

@@ -8,37 +8,37 @@ export default function AccountScreenshotsSection() {
       step: 1,
       title: "Download Nusuk App",
       description: "Install the official Nusuk app from your app store",
-      image: "/images/makeaccount1.jpeg"
+      image: "/rawdahinstantbooking/images/makeaccount1.jpeg"
     },
     {
       step: 2,
       title: "Enter Mobile Number",
       description: "Select your country code and enter your phone number",
-      image: "/images/makeaccount2.jpeg"
+      image: "/rawdahinstantbooking/images/makeaccount2.jpeg"
     },
     {
       step: 3,
       title: "Verify OTP",
       description: "Enter the verification code sent to your mobile",
-      image: "/images/makeaccount3.jpeg"
+      image: "/rawdahinstantbooking/images/makeaccount3.jpeg"
     },
     {
       step: 4,
       title: "Personal Information",
       description: "Fill in your personal details accurately",
-      image: "/images/makeaccount4.jpeg"
+      image: "/rawdahinstantbooking/images/makeaccount4.jpeg"
     },
     {
       step: 5,
       title: "Passport Details",
       description: "Enter your passport number and details",
-      image: "/images/makeaccount5.jpeg"
+      image: "/rawdahinstantbooking/images/makeaccount5.jpeg"
     },
     {
       step: 6,
       title: "Visa Information",
       description: "Add your Saudi visa or border number",
-      image: "/images/makeaccount6.jpeg"
+      image: "/rawdahinstantbooking/images/makeaccount6.jpeg"
     }
   ];
 
