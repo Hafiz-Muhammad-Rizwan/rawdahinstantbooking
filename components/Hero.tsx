@@ -40,7 +40,7 @@ export default function Hero() {
             Start Account Setup
           </a>
           <a
-            href="#instant-process"
+            href="#videos"
             className="flex items-center gap-2.5 px-6 py-3.5 rounded-lg bg-surface-card/15 backdrop-blur-md text-on-primary text-[15px] leading-[20px] font-semibold hover:bg-surface-card/25 transition-all"
           >
             <span className="material-symbols-outlined text-[20px] text-secondary-fixed">play_circle</span>

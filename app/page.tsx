@@ -3,6 +3,7 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import InfoBar from '@/components/InfoBar';
+import BookingTimingSummary from '@/components/BookingTimingSummary';
 import MakeAccountSection from '@/components/MakeAccountSection';
 import AccountScreenshotsSection from '@/components/AccountScreenshotsSection';
 import InstantProcessSection from '@/components/InstantProcessSection';
@@ -18,6 +19,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <InfoBar />
+      <BookingTimingSummary />
       <MakeAccountSection />
       <AccountScreenshotsSection />
       <InstantProcessSection />
