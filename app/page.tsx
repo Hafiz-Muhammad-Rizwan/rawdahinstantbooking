@@ -7,6 +7,7 @@ import MakeAccountSection from '@/components/MakeAccountSection';
 import AccountScreenshotsSection from '@/components/AccountScreenshotsSection';
 import InstantProcessSection from '@/components/InstantProcessSection';
 import ScreenshotsSection from '@/components/ScreenshotsSection';
+import SafetyAdvisory from '@/components/SafetyAdvisory';
 import FAQ from '@/components/FAQ';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
@@ -21,6 +22,7 @@ export default function Home() {
       <AccountScreenshotsSection />
       <InstantProcessSection />
       <ScreenshotsSection />
+      <SafetyAdvisory />
       <FAQ />
       <ContactSection />
       <Footer />

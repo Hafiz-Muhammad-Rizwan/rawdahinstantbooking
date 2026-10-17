@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/images/nusuksearchicon.webp", type: "image/webp" },
+      { url: "/images/favicon-96x96.png", sizes: "96x96", type: "image/png" },
       { url: "/images/32by32.jpg", sizes: "32x32", type: "image/jpeg" },
     ],
     shortcut: "/images/nusuksearchicon.webp",
